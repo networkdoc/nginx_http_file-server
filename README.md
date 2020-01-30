@@ -1,4 +1,7 @@
 # http-file-server
+
+[![pulls-download-size](https://images.microbadger.com/badges/image/thenetworkdoctor/nginx_http_file-server.svg)](https://microbadger.com/images/thenetworkdoctor/nginx_http_file-server "Get your own image badge on microbadger.com") [![version](https://images.microbadger.com/badges/version/thenetworkdoctor/nginx_http_file-server.svg)](https://microbadger.com/images/thenetworkdoctor/nginx_http_file-server "Get your own version badge on microbadger.com")
+
 Simple NGINX http server for serving files from the mapped volume.
 
 How to use ?
