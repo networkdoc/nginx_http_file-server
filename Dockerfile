@@ -2,7 +2,7 @@ FROM nginx
 
 ADD default.conf /etc/nginx/conf.d/
 
-RUN rm /usr/share/nginx/html/index.html && rm /usr/share/nginx/html/50x.html
+RUN rm /usr/share/nginx/html/index.html
 
 VOLUME ["/usr/share/nginx/html"]
 
