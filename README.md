@@ -12,8 +12,7 @@ Run the server to create the necessary folder structure and configuration files.
 sudo docker run -d \
   -p 80:8080/tcp \
   -v /path/of/host:/usr/share/nginx/html \
-  --name NGINX-http-file-server \
-  factoriotools/factorio
+  --name NGINX-http-file-server 
 ```
 
 For those new to Docker, here is an explanation of the options:
